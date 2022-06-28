@@ -1,0 +1,7 @@
+version: '3'  # version of compose format
+
+services:
+  search-service:
+    build: .  # path is relative to docker-compose.yml localtion
+    ports:
+      - "5001:5000"  # host:container
